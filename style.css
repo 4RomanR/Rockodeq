@@ -25,6 +25,7 @@ body{
 hr{
     width: 50%;
     background-color: #000;
+    margin: 30px;
 }
 /* HEADER */
 header{
@@ -33,7 +34,6 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    z-index: 1;
 }
 header img{
     width: 140px;
@@ -68,11 +68,10 @@ header a:hover {
 .section-1{
     background-image: url(./img/sobreMontana.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: top;
     width: 100%;
     height: 100vh;
-    position: absolute;
 }
 .section-1-div{
     position: absolute;
@@ -103,29 +102,27 @@ header a:hover {
 
 /* PRESENTATION */
 .section-2{
-    z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction:column;
     align-items: center;
     text-align: center;
-    padding: 45% 27% 5%;
-    
+    padding: 0 260px;
+
 }
 /* BENEFICIOS */
 .section-3-1{
     width: 100%;
-    padding-top: 40px;
+    padding-top: 30px;
     text-align: center;
 }
 .section-3{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 6%;
     padding: 15px;
     width: 100%;
-    height: 50vh;
+
 }
 .section-3 img{
     width: 50px;
@@ -139,13 +136,11 @@ header a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     width: 250px;
     margin: 40px 15px;
     padding: 15px;
     text-align: justify;
     background-color: var(--backG-1);
-
     box-shadow: 0 0 3px;
 }
 .section-3 h3{
@@ -157,7 +152,8 @@ header a:hover {
 /* SERVICES */
 .section-4-1{
     width: 100%;
-    padding-top: 40px;
+    margin-top:30px;
+    padding: 33px;
     text-align: center;
     background-color: #4a4949;
     color: white;
@@ -184,14 +180,14 @@ header a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
     width: 250px;
-    margin: 40px 15px;
-    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 12px;
     text-align: justify;
-    background-color: #fff;
-
     box-shadow: 0 0 9px #000;
+    background-color: #fff;
+    transition: 1000ms;
 }
 .section-4 h3{
     text-align: center;
@@ -202,9 +198,32 @@ header a:hover {
     text-align: center;
     font-size: medium;
     margin: 0 auto;
-    color: rgb(100, 162, 6);
+    color: blue ;
 }
 
+.box-2{
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+.box-3{
+    margin-top: 60px;
+    margin-bottom: -60px;
+}
+.box-1:hover{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    background-color:greenyellow;
+}
+.box-2:hover{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:greenyellow;
+}
+.box-3:hover{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:greenyellow;
+}
 
 /* CTA */
 .section-5{
@@ -219,11 +238,6 @@ header a:hover {
     font-size: xx-large;
     font-weight: 100;
 }
-
-
-
-
-
 
 /* FORM */
 .section-6{
@@ -241,7 +255,6 @@ form{
 
 }
 .input-box{
-
     background: transparent;
     border: none;
     outline: none;
@@ -275,24 +288,36 @@ form textarea:hover
 {
     background-color:rgba(172, 255, 47, 0.33);
 }
-
+/* FOOTER */
+footer{
+    background-color: #000;
+    width: 100%;
+    color: #efefef;
+    text-align: center;
+}
+footer p{
+    margin-top: 12px;
+}
 
 /* MEDIA QUERY */
 @media (max-width: 1250px) {
-    .section-1-div{
-        top: 35vh;
-
-    }
     .section-3{
        flex-wrap: wrap;
-     
-     
     }
+    form{
+    width: 100%;
+    }
+
 }
 @media (max-width: 980px) {
-    .section-1-div{
-        top: 25vh;
-
+    .section-2{
+        padding: 0;
+    }
+    .section-2 div img{
+        width: 80%;
+    }
+    .section-2 div p{
+        padding: 0 60px;
     }
 }
 
@@ -303,9 +328,7 @@ form textarea:hover
     .bi-list {
         display: block;
     }
-    .section-1-div{
-        top: 25vh;
-    }
+
     .section-1-div h1{
         font-size: 33px;
     }
@@ -315,35 +338,26 @@ form textarea:hover
         font-size: 12px;
         font-weight: 200;
     }
-    .section-2 img{
-        width: 70%;
-    }
+
 }
 @media (max-width: 680px) {
-
-    .section-1-div{
-        top: 18vh;
+    .section-1{
+        background-size: cover;
+        height: 100vh;
     }
     .section-1-div h1{
-        font-size: 21px;
+        font-size: 27px;
     }
-    
     .section-1-div button{
         padding: 3px 9px;
         font-size: 12px;
     }
+    
+
 }
 @media (max-width: 470px) {
-    .section-1-div{
-        top: 15vh;
-
-    }
-    .section-1-div h1{
-        font-size: 18px;
-    }
-    
     .section-1-div button{
-        padding: 3px 9px;
+        padding: 6px 12px;
         font-size: 12px;
     }
     
