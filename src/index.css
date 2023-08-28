@@ -330,7 +330,7 @@ footer p{
   }
 
   .section-1-div h1{
-      font-size: 33px;
+      font-size: 39px;
   }
   
   .section-1-div button{
@@ -348,17 +348,8 @@ footer p{
   .section-1-div h1{
       font-size: 27px;
   }
-  .section-1-div button{
-      padding: 3px 9px;
-      font-size: 12px;
-  }
-  
 
 }
 @media (max-width: 470px) {
-  .section-1-div button{
-      padding: 6px 12px;
-      font-size: 12px;
-  }
   
 }
