@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Rockodeq/static/css/main.e0626ff6.css",
-    "main.js": "/Rockodeq/static/js/main.b98a46ee.js",
-    "static/media/sobreMontana.png": "/Rockodeq/static/media/sobreMontana.de159b62385d476769fa.png",
-    "static/media/LogoB.png": "/Rockodeq/static/media/LogoB.55c77e96408fe3d976b3.png",
-    "static/media/conection.gif": "/Rockodeq/static/media/conection.ce93e9751d2f73b36621.gif",
-    "index.html": "/Rockodeq/index.html",
-    "static/media/list.svg": "/Rockodeq/static/media/list.f98b98b4905b36b844a65327ecaadc32.svg",
-    "main.e0626ff6.css.map": "/Rockodeq/static/css/main.e0626ff6.css.map",
-    "main.b98a46ee.js.map": "/Rockodeq/static/js/main.b98a46ee.js.map"
+    "main.css": "/static/css/main.33864ac2.css",
+    "main.js": "/static/js/main.22daf37e.js",
+    "static/media/sobreMontana.png": "/static/media/sobreMontana.de159b62385d476769fa.png",
+    "static/media/LogoB.png": "/static/media/LogoB.55c77e96408fe3d976b3.png",
+    "static/media/conection.gif": "/static/media/conection.ce93e9751d2f73b36621.gif",
+    "index.html": "/index.html",
+    "static/media/list.svg": "/static/media/list.f98b98b4905b36b844a65327ecaadc32.svg",
+    "main.33864ac2.css.map": "/static/css/main.33864ac2.css.map",
+    "main.22daf37e.js.map": "/static/js/main.22daf37e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0626ff6.css",
-    "static/js/main.b98a46ee.js"
+    "static/css/main.33864ac2.css",
+    "static/js/main.22daf37e.js"
   ]
 }
