@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <div>
              {/* PRESENTATION */}
-      <div className="section-2">
+      <div className="section-2" id='about'>
 
         <div>
             <img src={logoRockodeq} alt="rock"/>

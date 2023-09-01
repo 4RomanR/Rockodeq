@@ -1,6 +1,6 @@
 import React from 'react';
 import serviceLogo from "../img/LogoB.png";
-import conection from "../img/conection.gif";
+import conection from "../img/conection.png";
 import config from "../img/config.png"
 
 export const Services = () => {
@@ -16,13 +16,14 @@ export const Services = () => {
               <h3>Empower Your Website</h3>
 
                   <p>Upgrade for Greater Impact</p>
+                  <p>Landing page creation from scratch</p>
                   <p>Complete Website Makeovers</p>
                   <p>Major Design Revamps</p>
                   <p>Custom-Crafted Features (Online Store, Blog, etc.)</p>
                   <p>Major Website Software Enhancements</p>
                   <p>Rates Tailored to Project Complexity</p>
 
-              <p className="pricing">Contact Us to Discuss Your Goals</p>
+              <h4 className="pricing">Contact us</h4>
 
           </div>
           <div className="box-2">
