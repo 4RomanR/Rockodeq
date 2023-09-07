@@ -1,3 +1,18 @@
+### Sobre el proyecto ROCKODEQ
+Este es un proyecto realizado para poner a prueba mis conocimientos y que sirve para acoger clientes a los que pueda desarrollar aplicaciones webs.
+El proceso fue el siguiente:
+- Se realizó el diseño en HTML y CSS desde un principio.
+- Luego se crea un npm create-react-app rockodeq y se colocan los elementos en componentes
+- Se cambian class a className
+- Se arreglan algunos elementos desconfigurados en CSS
+- Se importan imágenes dentro de src/img y dentro de todos los componentes. 
+- Se añade la funcionalidad de un formulario utilizando "emailjs" como herramienta para envío de formuarios a correos electrónicos de manera directa.
+- Se realiza la configuración correspondiente a través de hooks useRef y useState
+- useState se usa también para el menú del navBar (hamburguer).
+
+En las próximas actualizaciones se realizarán llamados AJAX para colocar un portafolio de manera que se demuestre experiencia como empresa.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +83,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
