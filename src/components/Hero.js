@@ -3,10 +3,10 @@ import logoRockodeq from "../img/LogoB.png";
 import list from "../img/list.svg"
 
 export const Hero = () => {
-  const [navBurg, setNavBurg] = useState();
-  const clickNav = e => {
-
-  }
+const [clicked, setClicked] = useState(false)
+const toggleNav = () =>{
+  setClicked( !clicked)
+}
   return (
     <div>
 
@@ -16,19 +16,13 @@ export const Hero = () => {
           <div>
             <img src={logoRockodeq} alt="rock" />
           </div>
-          <ul>
-            <li><a href="/#services">Services</a></li>
-            <li><a href="./#about">About</a></li>
-            <li><a href="/#contact">Contact</a></li>
-          </ul>
-          <img onClick={clickNav} className="bi bi-list" src={list} alt="rock" />
-          <div className='nav-responsive'>
-            <ul>
+
+          <img className='h-img' src={list} onClick={ toggleNav }/>
+            <ul className={`header ul ${clicked ? "isActive" : "isDeactive"} `}>
               <li><a href="/#services">Services</a></li>
-              <li><a href="./#about">About</a></li>
+              <li><a href="/#about">About</a></li>
               <li><a href="/#contact">Contact</a></li>
-            </ul>
-          </div>
+            </ul>          
         </header>
         <div className="section-1-div" href="#Contact">
           <h1>Get your dream website!</h1>
@@ -39,3 +33,4 @@ export const Hero = () => {
     </div>
   )
 }
+ 
