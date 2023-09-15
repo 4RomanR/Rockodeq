@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9926d523.css",
-    "main.js": "/static/js/main.0449bec0.js",
+    "main.js": "/static/js/main.453132d2.js",
     "static/media/sobreMontana.png": "/static/media/sobreMontana.de159b62385d476769fa.png",
     "static/media/contact.jpg": "/static/media/contact.97d2b6f027de89749b48.jpg",
     "static/media/LogoB.png": "/static/media/LogoB.55c77e96408fe3d976b3.png",
     "index.html": "/index.html",
     "static/media/list.svg": "/static/media/list.f98b98b4905b36b844a65327ecaadc32.svg",
     "main.9926d523.css.map": "/static/css/main.9926d523.css.map",
-    "main.0449bec0.js.map": "/static/js/main.0449bec0.js.map"
+    "main.453132d2.js.map": "/static/js/main.453132d2.js.map"
   },
   "entrypoints": [
     "static/css/main.9926d523.css",
-    "static/js/main.0449bec0.js"
+    "static/js/main.453132d2.js"
   ]
 }

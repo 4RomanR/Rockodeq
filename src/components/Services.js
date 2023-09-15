@@ -23,7 +23,6 @@ export const Services = () => {
                   <p>Major Website Software Enhancements</p>
                   <p>Rates Tailored to Project Complexity</p>
 
-              <h4 className="pricing">Contact us</h4>
 
           </div>
           <div className="box-2">
@@ -37,7 +36,6 @@ export const Services = () => {
                   <p>Comprehensive security review (SSL, login protections, etc.)</p>
                   <p>Website review and optimization</p>
 
-              <p className="pricing">Just $89 per hour</p>
           </div>
           <div className="box-3">
               <img src={config} alt=""/>
@@ -48,7 +46,7 @@ export const Services = () => {
                   <p>A backup website with automatic failover</p>
                   <p>Dedicated support options (Short-term or long-term)</p>
                   <p>Monthly website checks, updates, optimization</p>
-                  <p className="pricing">$50 to $200+ per month</p>
+                  
           </div>
 
        </div>
